@@ -1,0 +1,1 @@
+from .table import display_milk_production_tables

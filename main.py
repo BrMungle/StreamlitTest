@@ -1,5 +1,6 @@
 import streamlit as st
 import tab1
+import tab2
 
 
 st.set_page_config(layout="wide")
@@ -32,6 +33,6 @@ with tab1_tab:
     st.plotly_chart(fig, use_container_width=True)
 
 with tab2_tab:
-    st.write("Tab 2 content here...")
+    tab2.display_milk_production_tables()
 
 
